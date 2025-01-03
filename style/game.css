@@ -1,0 +1,42 @@
+.menu {
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+}
+
+.bloc-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+    border-radius: 1em;
+    background-color: rgba(0, 0, 0, 0.856);
+    padding: 4em ;
+    padding-top: 0;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+    background-color: rgb(73, 73, 73);
+}
+
+.score {
+    color: white;
+}
+
+.board {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(8, 5em [col-start]);
+    grid-template-rows: repeat(8, 5em [col-start]);
+}
+
+.case {
+    height: 5em;
+    width: 5em;
+    background-color: green;
+    border-style: groove;
+    border-color: black;
+}
