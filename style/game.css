@@ -1,3 +1,7 @@
+:root {
+--CASE_SIZE: 5em;
+}
+
 .menu {
     border-style: solid;
     display: flex;
@@ -34,9 +38,21 @@
 }
 
 .case {
-    height: 5em;
-    width: 5em;
+    height: var(--CASE_SIZE);
+    width: var(--CASE_SIZE);
     background-color: green;
     border-style: groove;
     border-color: black;
+}
+
+.white {
+    max-width: var(--CASE_SIZE);
+    max-height: var(--CASE_SIZE);
+    content: url("../data/ressources/img/pieces/white-circle.jpg")
+}
+
+.black {
+    max-width: var(--CASE_SIZE);
+    max-height: var(--CASE_SIZE);
+    content: url("../data/ressources/img/pieces/black-circle.jpg")
 }
